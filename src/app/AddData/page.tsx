@@ -19,8 +19,6 @@ const{addProductFunApi}=useAuth()
         price: price,
         quantity: quantity,
       };
-
-     
       await addProductFunApi({
         data:formData
       });
